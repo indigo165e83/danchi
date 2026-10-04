@@ -2,14 +2,14 @@
 
 「何ができるべきか」を領域ごとのファイルにまとめる。
 
-| ファイル | 内容 | ID の形式 |
-|---|---|---|
-| [concept.md](concept.md) | コンセプト・どんな体験か・開発の段階 | － |
-| [room.md](room.md) | 部屋 | REQ-ROOM-xx |
-| [plants.md](plants.md) | 植物（育てる・成長） | REQ-PLANT-xx |
-| [items.md](items.md) | アイテム | REQ-ITEM-xx |
-| [ai-residents.md](ai-residents.md) | AI 住人 | REQ-AI-xx |
-| [non-functional.md](non-functional.md) | 非機能要件と制約 | REQ-NFR-xx |
+| ファイル                               | 内容                                 | ID の形式    |
+| -------------------------------------- | ------------------------------------ | ------------ |
+| [concept.md](concept.md)               | コンセプト・どんな体験か・開発の段階 | －           |
+| [room.md](room.md)                     | 部屋                                 | REQ-ROOM-xx  |
+| [plants.md](plants.md)                 | 植物（育てる・成長）                 | REQ-PLANT-xx |
+| [items.md](items.md)                   | アイテム                             | REQ-ITEM-xx  |
+| [ai-residents.md](ai-residents.md)     | AI 住人                              | REQ-AI-xx    |
+| [non-functional.md](non-functional.md) | 非機能要件と制約                     | REQ-NFR-xx   |
 
 新しい領域が出てきたら、ファイルを1つ追加してこの表に載せる。
 

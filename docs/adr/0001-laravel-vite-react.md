@@ -29,7 +29,7 @@
 ## 影響
 
 - WebSocket やキューワーカーは常駐プロセスが必要なため、共用レンタルサーバーではなく VPS 以上で運用する
-  - 共用サーバーで試す場合は、ポーリングと cron によるキュー処理で代用する
+    - 共用サーバーで試す場合は、ポーリングと cron によるキュー処理で代用する
 - PWA 化は vite-plugin-pwa などで個別に対応する
 - 将来のネイティブアプリ化は Capacitor でラップする想定
 - 本番インフラは、試作は Xserver VPS または AWS Lightsail、本格運用は AWS（ECS / RDS for MariaDB）を想定
