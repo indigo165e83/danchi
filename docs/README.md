@@ -18,6 +18,7 @@
 - 要件・設計・テスト条件は同じ領域名（room / plants / items / ai-residents など）でそろえる
 - 図は Mermaid で書く（GitHub 上でそのまま表示される）
 - コミットメッセージは「種類: 日本語の説明」の形式で書く（種類は feat / fix / docs / test / refactor / chore）
+- commit 前に必ず `sail composer ci:check` を実行する。書式の問題が出た場合は `sail npx vp check --fix` で修正してから commit する
 
 ## 役割分担
 
